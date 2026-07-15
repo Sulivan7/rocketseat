@@ -1,27 +1,34 @@
-# Exercícios e projetos da Rocketseat
+# Exercícios e Projetos da Rocketseat
 
-Este repositório reúne os exercícios e projetos que desenvolvi durante estudos da Rocketseat.
+Este repositório reúne os exercícios e projetos que desenvolvi durante meus estudos na **Rocketseat**.
 
 ## Organização
 
-Para manter o repositório organizado, **cada exercício está em uma branch diferente**. Dessa forma, cada projeto fica isolado e é possível acompanhar minha evolução ao longo dos estudos.
+Para manter o repositório organizado, **cada exercício ou projeto está em uma branch diferente**. Dessa forma, cada branch representa uma etapa dos meus estudos e facilita a navegação entre os conteúdos.
 
 ## Como acessar um exercício
 
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/Sulivan7/rocketseat
+git clone https://github.com/Sulivan7/rocketseat.git
 ```
 
-2.Liste as branches disponíveis:
+2. Liste as branches disponíveis:
 
 ```bash
 git branch -a
 ```
 
-3.Acesse a branch do exercício desejado:
+3. Acesse a branch desejada:
 
 ```bash
 git checkout nome-da-branch
 ```
+
+## Índice
+
+| Branch                      | Projeto/Exercício              |
+| --------------------------- | ------------------------------ |
+| `project/pagina-de-receita` | Página de Receita `HTML - CSS` |
+| `...`                       | ...                            |

@@ -28,7 +28,7 @@ git checkout nome-da-branch
 
 ## Índice
 
-| Branch                      | Projeto/Exercício              |
-| --------------------------- | ------------------------------ |
-| `project/pagina-de-receita` | Página de Receita `HTML - CSS` |
-| `...`                       | ...                            |
+| Branch | Projeto/Exercício |
+| ------ | ----------------- |
+| `project/pagina-de-receita` | [Página de Receita (HTML + CSS)](https://github.com/Sulivan7/rocketseat/tree/project/pagina-de-receita) |
+| `...` | ... |

@@ -1,0 +1,17 @@
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
+}
+
+.site-footer__description {
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+.site-footer__credit {
+  color: var(--text-primary);
+}

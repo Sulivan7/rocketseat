@@ -1,0 +1,94 @@
+.highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 8px;
+}
+
+.section-title {
+  font-size: 32px;
+  color: var(--text-primary);
+}
+
+.section-description {
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card__title {
+  font-size: 28px;
+  color: var(--text-primary);
+}
+
+.card__description {
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+.card__tags {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card__tags-label {
+  color: var(--text-primary);
+}
+
+.tag-list {
+  padding-left: 28px;
+}
+
+.tag-list__item {
+  color: var(--accent-blue);
+  font-weight: bold;
+}
+
+.tag-list__item::marker {
+  color: var(--text-primary);
+}
+
+.tag-list__item--purple {
+  color: var(--accent-purple);
+}
+
+.tag-list__item--red {
+  color: var(--accent-pink);
+}
+
+.tag-list__item--orange {
+  color: var(--accent-orange);
+}
+
+figure img {
+  height: 375px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 26px;
+  }
+
+  .card__title {
+    font-size: 24px;
+  }
+}

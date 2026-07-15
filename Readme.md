@@ -1,27 +1,37 @@
-# Exercícios e projetos da Rocketseat
+# 🍰 Página de Receita
 
-Este repositório reúne os exercícios e projetos que desenvolvi durante estudos da Rocketseat.
+Uma página simples e responsiva desenvolvida com **HTML5** e **CSS3**, inspirada em um layout disponibilizado pela Rocketseat no Figma Community.
 
-## Organização
+![Preview](assets/preview.png)
 
-Para manter o repositório organizado, **cada exercício está em uma branch diferente**. Dessa forma, cada projeto fica isolado e é possível acompanhar minha evolução ao longo dos estudos.
+## 🚀 Tecnologias
 
-## Como acessar um exercício
+- HTML5
+- CSS3
 
-1. Clone este repositório:
+## ✨ Funcionalidades
 
-```bash
-git clone https://github.com/Sulivan7/rocketseat
-```
+- Layout moderno
+- Página responsiva
+- Estrutura semântica em HTML
+- Estilização utilizando CSS puro
 
-2.Liste as branches disponíveis:
+## 📚 O que aprendi
 
-```bash
-git branch -a
-```
+Durante o desenvolvimento deste projeto pratiquei:
 
-3.Acesse a branch do exercício desejado:
+- Estruturação de páginas com HTML semântico
+- Organização do CSS
+- Responsividade utilizando Media Queries
+- Uso de imagens responsivas
+- Tipografia
 
-```bash
-git checkout nome-da-branch
-```
+## 🎨 Layout
+
+O design utilizado neste projeto está disponível no Figma:
+
+🔗 https://www.figma.com/community/file/1360315130061454535/pagina-de-receita
+
+## ▶️ Como executar
+
+- Abra o arquivo `index.html` no navegador.

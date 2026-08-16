@@ -32,4 +32,6 @@ git checkout nome-da-branch
 | ------ | ----------------- |
 | `project/pagina-de-receita` | [Página de Receita (HTML + CSS)](https://github.com/Sulivan7/rocketseat/tree/project/pagina-de-receita) |
 | `project/local-turistco` | [Local Turistico (HTML + CSS)](https://github.com/Sulivan7/rocketseat/tree/project/local-turistico) |
+| `project/travelgram` | [Local Turistico (HTML + CSS)](https://github.com/Sulivan7/rocketseat/tree/project/travelgram) |
+| `project/portal-de-noticias` | [Local Turistico (HTML + CSS)](https://github.com/Sulivan7/rocketseat/tree/project/portal-de-noticias) |
 | `...` | ... |

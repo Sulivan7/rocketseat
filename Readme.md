@@ -1,46 +1,35 @@
-# Portal de Notícias
+# Exercícios e Projetos da Rocketseat
 
-Um portal de notícias de tecnologia responsivo desenvolvido com **HTML5** e **CSS3**. O projeto foi desenvolvido com base em um layout disponibilizado pela **Rocketseat** no Figma Community.
+Este repositório reúne os exercícios e projetos que desenvolvi durante meus estudos na **Rocketseat**.
 
-![Preview](assets/preview.png)
+## Organização
 
-## Tecnologias
+Para manter o repositório organizado, **cada exercício ou projeto está em uma branch diferente**. Dessa forma, cada branch representa uma etapa dos meus estudos e facilita a navegação entre os conteúdos.
 
-- HTML5
-- CSS3
+## Como acessar um exercício
 
-## Funcionalidades
+1. Clone este repositório:
 
-- Layout em grid com áreas nomeadas
-- Estrutura semântica em HTML
-- Organização do CSS em arquivos separados
-- Classes utilitárias reaproveitáveis
-- Menu de categorias com rolagem horizontal no mobile
-- Imagens responsivas
+```bash
+git clone https://github.com/Sulivan7/rocketseat.git
+```
 
-## O que aprendi
+2. Liste as branches disponíveis:
 
-Durante o desenvolvimento deste projeto pratiquei:
+```bash
+git branch -a
+```
 
-- Estruturação semântica com elementos como `header`, `nav`, `main`, `section`, `article`, `aside`, `figure` e `figcaption`
-- Organização do CSS utilizando múltiplos arquivos com `@import`
-- Uso de variáveis CSS (`:root`) para cores e tipografia
-- Construção de layouts com **CSS Grid**, incluindo `grid-template-areas`
-- Criação de classes utilitárias para espaçamento e tipografia
-- Sobreposição de texto em imagens com `position: absolute` e gradiente via pseudo-elemento `::before`
-- Aninhamento nativo de CSS (CSS Nesting)
-- Uso do seletor `:has()` para variação de estilo conforme o conteúdo
-- Responsividade utilizando **Media Queries** com abordagem _desktop-first_
-- Imagens fluidas com `aspect-ratio` e `object-fit`
-- Reordenação de elementos no mobile com `order`
-- Boas práticas na organização de projetos front-end
+3. Acesse a branch desejada:
 
-## Layout
+```bash
+git checkout nome-da-branch
+```
 
-O design utilizado neste projeto está disponível no Figma:
+## Índice
 
-🔗 <https://www.figma.com/community/file/1362166020452569562/portal-de-noticias>
-
-## Como executar
-
-- Abra o arquivo `index.html` no navegador.
+| Branch | Projeto/Exercício |
+| ------ | ----------------- |
+| `project/pagina-de-receita` | [Página de Receita (HTML + CSS)](https://github.com/Sulivan7/rocketseat/tree/project/pagina-de-receita) |
+| `project/local-turistco` | [Local Turistico (HTML + CSS)](https://github.com/Sulivan7/rocketseat/tree/project/local-turistico) |
+| `...` | ... |

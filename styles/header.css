@@ -1,0 +1,47 @@
+#primary {
+  padding-block: 20px;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  div:nth-child(2) {
+    margin-inline: auto;
+  }
+
+  div:nth-child(3) {
+    justify-self: end;
+  }
+
+  @media (max-width: 600px) {
+    padding-block: 16px;
+
+    strong {
+      display: none;
+    }
+  }
+}
+
+#secondary {
+  padding-block: 14px;
+  border: solid 1px var(--stroke-color);
+  border-inline: none;
+  justify-content: space-between;
+
+  @media (max-width: 900px) {
+    justify-content: start;
+    gap: 24px;
+    overflow-x: auto;
+    scrollbar-width: none;
+
+    a {
+      white-space: nowrap;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

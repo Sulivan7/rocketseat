@@ -1,35 +1,41 @@
-# Exercícios e Projetos da Rocketseat
+# Travelgram
 
-Este repositório reúne os exercícios e projetos que desenvolvi durante meus estudos na **Rocketseat**.
+Uma página de perfil de viagens responsiva desenvolvida com **HTML5** e **CSS3**. O projeto foi desenvolvido com base em um layout disponibilizado pela **Rocketseat** no Figma Community.
 
-## Organização
+![Preview](assets/preview.png)
 
-Para manter o repositório organizado, **cada exercício ou projeto está em uma branch diferente**. Dessa forma, cada branch representa uma etapa dos meus estudos e facilita a navegação entre os conteúdos.
+## Tecnologias
 
-## Como acessar um exercício
+- HTML5
+- CSS3
 
-1. Clone este repositório:
+## Funcionalidades
 
-```bash
-git clone https://github.com/Sulivan7/rocketseat.git
-```
+- Layout moderno e responsivo
+- Estrutura semântica em HTML
+- Organização do CSS em arquivos separados
+- Galeria de fotos em grid flexível
+- Imagens responsivas
+- Menu adaptado para telas menores
 
-2. Liste as branches disponíveis:
+## O que aprendi
 
-```bash
-git branch -a
-```
+Durante o desenvolvimento deste projeto pratiquei:
 
-3. Acesse a branch desejada:
+- Estruturação semântica com elementos como `nav`, `header`, `main` e `footer`
+- Organização do CSS utilizando múltiplos arquivos com `@import`
+- Uso de variáveis CSS (`:root`) para cores e tipografia
+- Alinhamento e espaçamento com **Flexbox**
+- Responsividade utilizando **Media Queries** (mobile e tablet)
+- Imagens fluidas com `aspect-ratio` e `object-fit`
+- Boas práticas na organização de projetos front-end
 
-```bash
-git checkout nome-da-branch
-```
+## Layout
 
-## Índice
+O design utilizado neste projeto está disponível no Figma:
 
-| Branch | Projeto/Exercício |
-| ------ | ----------------- |
-| `project/pagina-de-receita` | [Página de Receita (HTML + CSS)](https://github.com/Sulivan7/rocketseat/tree/project/pagina-de-receita) |
-| `project/local-turistco` | [Local Turistico (HTML + CSS)](https://github.com/Sulivan7/rocketseat/tree/project/local-turistico) |
-| `...` | ... |
+🔗 <https://www.figma.com/community/file/1360315496868719817/perfil-de-viagens>
+
+## Como executar
+
+- Abra o arquivo `index.html` no navegador.

@@ -10,3 +10,15 @@ main img {
   height: 286px;
   object-fit: cover;
 }
+
+@media (max-width: 1024px) {
+  main {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 720px) {
+  main {
+    gap: 16px;
+  }
+}
